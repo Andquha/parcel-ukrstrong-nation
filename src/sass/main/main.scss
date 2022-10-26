@@ -1,0 +1,17 @@
+@import '../comon';
+@import '../default';
+@import './preloader';
+@import '../header';
+@import './map';
+@import './slider';
+@import './about';
+@import './achivement';
+@import '../footer';
+
+.main {
+    position: relative;
+    width: 100%;
+    margin: -11rem 0rem 0rem 0rem;
+    flex: 1 1 auto;
+    background-color: #FFFFFF;
+}
