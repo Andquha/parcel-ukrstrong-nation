@@ -7,11 +7,12 @@
 @import './about';
 @import './achivement';
 @import '../footer';
+@import './_modal-oblast.scss';
 
 .main {
-    position: relative;
-    width: 100%;
-    margin: -11rem 0rem 0rem 0rem;
-    flex: 1 1 auto;
-    background-color: #FFFFFF;
+  position: relative;
+  width: 100%;
+  margin: -11rem 0rem 0rem 0rem;
+  flex: 1 1 auto;
+  background-color: #ffffff;
 }
