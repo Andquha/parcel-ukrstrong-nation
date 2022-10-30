@@ -16,10 +16,10 @@
     pointer-events: none;
     transform: translate(-50%, -50%) scale(0.5);
   }
+}
 
-  //   &.is-hidden .modal {
-  //     transform: translate(-50%, -50%) scale(0.5);
-  //   }
+.scroll-disabled {
+  overflow: hidden;
 }
 
 .modal-oblast {
@@ -34,14 +34,15 @@
   background: white;
 
   border-radius: 35px;
-  //   border: 2px solid #ffffff;
+  // поставил 48 пикселей что бы при скроле окна не наезжали на бордеры, что происхзодит если ограничить паддингами всё
+  // border: 48px solid #ffffff;
 
   margin: 0 auto;
   padding: 48px;
   height: 100%;
   max-height: 738px;
   width: 100%;
-  max-width: 1080px;
+  max-width: 1051px;
 
   overflow-y: scroll;
 
@@ -61,6 +62,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+
+    justify-content: center;
   }
   &__card {
     border: 1px solid #849464;
