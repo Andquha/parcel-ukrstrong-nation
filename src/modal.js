@@ -2,13 +2,15 @@
 
 (() => {
   const refs = {
-    openModalBtn: document.querySelector('[data-modal-open]'),
+    openModalBtnLutsk: document.querySelector('[data-modal-open-lutsk]'),
+    openModalBtnRivne: document.querySelector('[data-modal-open-rivne]'),
     closeModalBtn: document.querySelector('[data-modal-close]'),
     modal: document.querySelector('[data-modal]'),
     body: document.querySelector('body'),
   };
 
-  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.openModalBtnLutsk.addEventListener('click', toggleModal);
+  refs.openModalBtnRivne.addEventListener('click', toggleModal);
   refs.closeModalBtn.addEventListener('click', toggleModal);
   refs.modal.addEventListener('click', toggleModal);
 
@@ -27,7 +29,7 @@
 
 // контент модалки
 
-const cards = [
+let cards = [
   {
     imgSource: '/src/images/main_page/card1.jpg',
     imgAlt: 'help_img',
