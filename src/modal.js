@@ -42,6 +42,54 @@ const cards = [
     link: 'https://facebook.com/sylnanacia',
     date: '13.09.2022',
   },
+  {
+    imgSource: '/src/images/main_page/card1.jpg',
+    imgAlt: 'help_img',
+    cardText:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapientelaborum, excepturi vero unde necessitatibus quas nisi. Asperiores sederror a quis, accusantium itaque ut earum. Vel alias repudiandae omnisnostrum!',
+    link: 'https://facebook.com/sylnanacia',
+    date: '13.09.2022',
+  },
+  {
+    imgSource: '/src/images/main_page/card1.jpg',
+    imgAlt: 'help_img',
+    cardText:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapientelaborum, excepturi vero unde necessitatibus quas nisi. Asperiores sederror a quis, accusantium itaque ut earum. Vel alias repudiandae omnisnostrum!',
+    link: 'https://facebook.com/sylnanacia',
+    date: '13.09.2022',
+  },
+  {
+    imgSource: '/src/images/main_page/card1.jpg',
+    imgAlt: 'help_img',
+    cardText:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapientelaborum, excepturi vero unde necessitatibus quas nisi. Asperiores sederror a quis, accusantium itaque ut earum. Vel alias repudiandae omnisnostrum!',
+    link: 'https://facebook.com/sylnanacia',
+    date: '13.09.2022',
+  },
+  {
+    imgSource: '/src/images/main_page/card1.jpg',
+    imgAlt: 'help_img',
+    cardText:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapientelaborum, excepturi vero unde necessitatibus quas nisi. Asperiores sederror a quis, accusantium itaque ut earum. Vel alias repudiandae omnisnostrum!',
+    link: 'https://facebook.com/sylnanacia',
+    date: '13.09.2022',
+  },
+  {
+    imgSource: '/src/images/main_page/card1.jpg',
+    imgAlt: 'help_img',
+    cardText:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapientelaborum, excepturi vero unde necessitatibus quas nisi. Asperiores sederror a quis, accusantium itaque ut earum. Vel alias repudiandae omnisnostrum!',
+    link: 'https://facebook.com/sylnanacia',
+    date: '13.09.2022',
+  },
+  {
+    imgSource: '/src/images/main_page/card1.jpg',
+    imgAlt: 'help_img',
+    cardText:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapientelaborum, excepturi vero unde necessitatibus quas nisi. Asperiores sederror a quis, accusantium itaque ut earum. Vel alias repudiandae omnisnostrum!',
+    link: 'https://facebook.com/sylnanacia',
+    date: '13.09.2022',
+  },
 ];
 
 const modalOblast = document.querySelector('.oblast__cards');

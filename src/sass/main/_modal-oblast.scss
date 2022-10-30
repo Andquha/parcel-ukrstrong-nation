@@ -35,21 +35,23 @@
 
   border-radius: 35px;
   // поставил 48 пикселей что бы при скроле окна не наезжали на бордеры, что происхзодит если ограничить паддингами всё
-  // border: 48px solid #ffffff;
+  border: 48px solid #ffffff;
+  border-right: 24px solid #ffffff;
+  border-left: 24px solid #ffffff;
 
   margin: 0 auto;
-  padding: 48px;
+  // padding: 48px;
   height: 100%;
   max-height: 738px;
   width: 100%;
-  max-width: 1051px;
+  max-width: 1020px;
 
   overflow-y: scroll;
 
   & .modal__close-icon {
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: 0px;
+    right: 0px;
   }
 }
 
@@ -62,8 +64,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-
-    justify-content: center;
   }
   &__card {
     border: 1px solid #849464;
