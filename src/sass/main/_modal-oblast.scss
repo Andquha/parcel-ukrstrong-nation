@@ -23,7 +23,7 @@
 
 .modal-content {
   overflow-y: scroll;
-  max-height: calc(738px - 48px * 2);
+  max-height: 100%;
 }
 
 .modal-oblast {
@@ -49,9 +49,19 @@
   max-width: 1051px;
 
   & .modal__close-icon {
+    position: relative;
+    background-color: transparent;
+
+    &:hover {
+      fill: #000000;
+    }
+  }
+
+  & .modal__close-button {
     position: absolute;
     top: 24px;
     right: 24px;
+    background-color: transparent;
   }
 }
 
