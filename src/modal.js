@@ -8,22 +8,21 @@
     body: document.querySelector('body'),
   };
 
-  refs.closeModalBtn.addEventListener('click', toggleModal);
-  refs.modal.addEventListener('click', toggleModal);
-  refs.allStates.forEach(e => e.addEventListener('click', toggleModal));
+  refs.closeModalBtn.addEventListener('click', ()=>{refs.modal.classList.add('is-hidden');refs.body.style.overflow = 'auto'});
+  refs.modal.addEventListener('click', e=>closeModal(e));
+  refs.allStates.forEach(e => e.addEventListener('click', openModal));
 
-  console.log(refs.allStates);
+  function openModal(){
+    refs.modal.classList.remove("is-hidden");
+    // Disable scroll
+    refs.body.style.overflow = 'hidden';
+  }
 
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
-
-    if (!refs.modal.classList.contains('is-hidden')) {
-      // Disable scroll
-      refs.body.style.overflow = 'hidden';
-    } else {
-      // Enable scroll
-      refs.body.style.overflow = 'auto';
-    }
+  function closeModal(e) {
+    if(e.target.closest('.modal-oblast')) return
+    refs.modal.classList.add('is-hidden');
+    // Enable scroll
+    refs.body.style.overflow = 'auto';
   }
 })();
 
