@@ -2,17 +2,17 @@
 
 (() => {
   const refs = {
-    openModalBtnLutsk: document.querySelector('[data-modal-open-lutsk]'),
-    openModalBtnRivne: document.querySelector('[data-modal-open-rivne]'),
+    allStates: document.querySelectorAll('svg.Ukraine > path'),
     closeModalBtn: document.querySelector('[data-modal-close]'),
     modal: document.querySelector('[data-modal]'),
     body: document.querySelector('body'),
   };
 
-  refs.openModalBtnLutsk.addEventListener('click', toggleModal);
-  refs.openModalBtnRivne.addEventListener('click', toggleModal);
   refs.closeModalBtn.addEventListener('click', toggleModal);
   refs.modal.addEventListener('click', toggleModal);
+  refs.allStates.forEach(e => e.addEventListener('click', toggleModal));
+
+  console.log(refs.allStates);
 
   function toggleModal() {
     refs.modal.classList.toggle('is-hidden');
