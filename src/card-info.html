@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards Settings</title>
+    <link rel="stylesheet" href="./sass/admin/card-info.scss" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <section class="cards-form">
+      <div class="container">
+        <div class="cards-form__wrapper">
+          <form>
+            <div class="cards-form__headings">
+              <p>Категорія</p>
+              <p>Кількість</p>
+            </div>
+            <label>
+              <input class="cards-form__input" type="text" name="category1" />
+            </label>
+            <label>
+              <input
+                class="cards-form__input mr0"
+                type="text"
+                name="quantity1"
+              />
+            </label>
+            <label>
+              <input class="cards-form__input" type="text" name="category2" />
+            </label>
+            <label>
+              <input
+                class="cards-form__input mr0"
+                type="text"
+                name="quantity2"
+              />
+            </label>
+            <label>
+              <input class="cards-form__input" type="text" name="category3" />
+            </label>
+            <label>
+              <input
+                class="cards-form__input mr0"
+                type="text"
+                name="quantity3"
+              />
+            </label>
+            <label>
+              <input class="cards-form__input" type="text" name="category4" />
+            </label>
+            <label>
+              <input
+                class="cards-form__input mr0"
+                type="text"
+                name="quantity4"
+              />
+            </label>
+            <label>
+              <input class="cards-form__input" type="text" name="category5" />
+            </label>
+            <label>
+              <input
+                class="cards-form__input mr0"
+                type="text"
+                name="quantity5"
+              />
+            </label>
+            <label for=""
+              ><p class="cards-form__name">Посилання на джерело</p>
+              <input
+                class="cards-form__input cards-form__input--wide mr0"
+                type="text"
+                name="url"
+              />
+            </label>
+            <label for=""
+              ><p class="cards-form__name">Дата публікації</p>
+              <input
+                name="date"
+                class="cards-form__input cards-form__input--wide mr0"
+                type="text"
+              />
+            </label>
+            <label for="">
+              <input class="cards-form__input" type="file" />
+            </label>
+            <button type="submit" class="cards-form__submit">Готово</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="./cards.js"></script>
+  </body>
+</html>
